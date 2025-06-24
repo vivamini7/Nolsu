@@ -2,7 +2,7 @@
   "name": "nolsu",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vivamini7.github.io/nolsu",
+  "homepage": "https://vivamini7.github.io/Nolsu",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -11,6 +11,7 @@
     "gh-pages": "^6.3.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

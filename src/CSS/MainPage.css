@@ -63,6 +63,11 @@
   margin-bottom: 2.5rem;
 }
 
+.option-button.selected {
+  background-color: #76FF02 !important;
+  color: black;
+}
+
 
 .cta-button {
   background-color: #76FF02;
@@ -74,12 +79,15 @@
   outline: none;
   font-weight: 600;
   width: fit-content;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* ✅ transform 추가 */
+  cursor: pointer;
 }
 
 .cta-button:hover {
   background-color: #76FF02;
+  transform: translateY(-4px); /* ✅ 마우스를 올리면 살짝 위로 이동 */
 }
+
 
 .right-section {
   width: 50%;
