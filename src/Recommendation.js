@@ -1,77 +1,180 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './CSS/Recommendation.css';
 import MapView from './MapView';
 import mamukImg from './images/마묵.png';
-import resomImg from './images/리솜.png';
+import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
+
+
+const GEO_API_KEY = 'e3ab1ad7ef71ccdc312fea158c553d0a';
+
+const geocodeAddress = async (address) => {
+  const res = await fetch(
+    `https://dapi.kakao.com/v2/local/search/address.json?query=${encodeURIComponent(address)}`,
+    {
+      headers: {
+        Authorization: `KakaoAK ${GEO_API_KEY}`,
+      },
+    }
+  );
+  const data = await res.json();
+  const loc = data.documents[0];
+  return loc ? { lat: parseFloat(loc.y), lng: parseFloat(loc.x) } : null;
+};
 
 export default function RecommendationPage() {
-  const [selectedOffice, setSelectedOffice] = useState(null);
+  const [categories, setCategories] = useState(['업무공간', '식당', '프로그램']);
+  const [selectedPlaces, setSelectedPlaces] = useState([]);
+  const [markers, setMarkers] = useState([]);
+  const [placeInfo, setPlaceInfo] = useState(null);
 
-  const handleSelectOffice = () => {
-    setSelectedOffice({
-      name: '마묵 라운지',
-      location: '충북 제천시 ...',
-      image: mamukImg,
-    });
+  useEffect(() => {
+    const fetchMarkers = async () => {
+      const res = await fetch(`${process.env.PUBLIC_URL}/data/chungbuk_combined_cleaned.json`);
+      const data = await res.json();
+      const limited = data.slice(0, 100);
+
+      const resolved = await Promise.all(
+        limited.map(async ({ name, address, time, category, url }) => {
+          const coord = await geocodeAddress(address);
+          return coord ? { name, address, time, category, url, ...coord } : null;
+        })
+      );
+
+      setMarkers(resolved.filter(Boolean));
+    };
+
+    fetchMarkers();
+  }, []);
+
+  const handleMarkerClick = (place) => {
+    setPlaceInfo(place);
+  };
+
+  const handleDragEnd = (result) => {
+    if (!result.destination) return;
+    const newPlaces = Array.from(selectedPlaces);
+    const [moved] = newPlaces.splice(result.source.index, 1);
+    newPlaces.splice(result.destination.index, 0, moved);
+    setSelectedPlaces(newPlaces);
   };
 
   return (
     <div className="page-wrapper">
-      {/* 상단 고정 헤더 */}
       <header className="header_last">
         <div className="logo_last">놀슈</div>
         <div className="menu-icon-last">☰</div>
       </header>
 
-      {/* 상단 탭 */}
-      <div className="category-tabs">
-        <div className="tab">
-          <img src={resomImg} alt="숙소" />
-          <div className="overlay">
-            <p>포레스트 리솜</p>
-            <span>🍀 충청북도 제천시</span>
-          </div>
-          <p>숙소</p>
-        </div>
-
-        <div className={`tab ${selectedOffice ? 'active' : ''}`}>
-          {selectedOffice ? (
-            <>
-              <img src={selectedOffice.image} alt={selectedOffice.name} />
-              <div className="overlay">
-                <p>{selectedOffice.name}</p>
-                <span>🍀 {selectedOffice.location}</span>
+      <DragDropContext onDragEnd={handleDragEnd}>
+        <Droppable droppableId="category-tabs" direction="horizontal">
+          {(provided) => (
+            <div className="category-tabs" ref={provided.innerRef} {...provided.droppableProps}>
+              {categories.map((label, i) => {
+                const selected = selectedPlaces[i];
+                return (
+                  <Draggable key={i} draggableId={`tab-${i}`} index={i}>
+                    {(provided) => (
+                      <div
+                        className={`tab ${selected ? 'active' : ''}`}
+                        ref={provided.innerRef}
+                        {...provided.draggableProps}
+                        {...provided.dragHandleProps}
+                      >
+                        {selected ? (
+                          <>
+                            <img src={selected.image} alt={selected.name} />
+                            <div className="overlay">
+                              <p>{selected.name}</p>
+                              <span>🍀 {selected.address}</span>
+                            </div>
+                            <p>{label}</p>
+                            <button
+                              className="delete-btn"
+                              onClick={() => {
+                                const newPlaces = [...selectedPlaces];
+                                newPlaces.splice(i, 1);
+                                setSelectedPlaces(newPlaces);
+                                const newCats = [...categories];
+                                newCats.splice(i, 1);
+                                setCategories(newCats);
+                              }}
+                            >
+                              ❌
+                            </button>
+                          </>
+                        ) : (
+                          <div className="empty-card">{i + 1 < 10 ? `0${i + 1}` : i + 1} {label}</div>
+                        )}
+                      </div>
+                    )}
+                  </Draggable>
+                );
+              })}
+              {provided.placeholder}
+              <div
+                className="tab add-tab"
+                onClick={() => {
+                  const newLabel = `기타`;
+                  setCategories([...categories, newLabel]);
+                }}
+              >
+                <div className="empty-card">➕ 추가</div>
               </div>
-            </>
-          ) : (
-            <div className="empty-card">② 업무공간</div>
+            </div>
           )}
-        </div>
+        </Droppable>
+      </DragDropContext>
 
-        <div className="tab">
-          <div className="empty-card">③ 식당</div>
-        </div>
-        <div className="tab">
-          <div className="empty-card">④ 프로그램</div>
-        </div>
-      </div>
-
-      {/* 본문 */}
       <div className="recommendation-body">
         <div className="map-area">
-          <MapView latitude={36.6357} longitude={127.4917} zoom={9} />
+          <MapView
+            latitude={36.6357}
+            longitude={127.4917}
+            zoom={9}
+            markers={markers}
+            onMarkerClick={handleMarkerClick}
+          />
         </div>
 
         <div className="detail-card">
-          <img src={mamukImg} alt="마묵 라운지" className="place-img" />
-          <h3>마묵 라운지</h3>
-          <p>카페, 디저트</p>
-          <p>🍀 충북 제천시 백운면 금봉로 365</p>
-          <p>💚 매일 08:00 - 19:00</p>
-
-          <button className="select-button" onClick={handleSelectOffice}>
-            업무공간 선택하기
-          </button>
+          {placeInfo ? (
+            <>
+              <h3>{placeInfo.name}</h3>
+              <p>🟢 {placeInfo.category}</p>
+              <p>🍀 {placeInfo.address}</p>
+              <p>💚 {placeInfo.time || '운영 시간 정보 없음'}</p>
+              <div className="button-group">
+                {placeInfo.url && (
+                  <button
+                    className="select-button"
+                    onClick={() => window.open(placeInfo.url, '_blank')}
+                  >
+                    자세히 보기
+                  </button>
+                )}
+                <button
+                  className="select-button"
+                  onClick={() => {
+                    const nextIndex = selectedPlaces.length;
+                    if (nextIndex < categories.length) {
+                      const newPlace = {
+                        name: placeInfo.name,
+                        address: placeInfo.address,
+                        image: mamukImg,
+                      };
+                      setSelectedPlaces([...selectedPlaces, newPlace]);
+                    } else {
+                      alert('모든 카테고리 탭이 이미 선택되었습니다.');
+                    }
+                  }}
+                >
+                  선택하기
+                </button>
+              </div>
+            </>
+          ) : (
+            <p>📝 장소를 선택하면 자세한 정보를 볼 수 있어요.</p>
+          )}
         </div>
       </div>
     </div>

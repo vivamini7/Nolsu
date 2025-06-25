@@ -98,16 +98,63 @@
   margin-bottom: 1rem;
 }
 
+.button-group {
+  display: flex;       /* 필수! gap을 작동시키기 위해 */
+  gap: 10px;           /* 버튼 사이 여백 */
+  margin-top: 12px;
+}
+
+
 .select-button {
-  background-color: black;
+  padding: 10px 25px;
+  background-color: #44c067;
   color: white;
-  padding: 0.75rem 2rem;
   border: none;
   border-radius: 8px;
-  font-weight: bold;
-  margin-top: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.select-button:hover {
+  background-color: #2563eb;
+}
+
+.add-tab {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+.select-button {
+  padding: 8px 14px;
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
   cursor: pointer;
 }
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: red;
+  font-size: 1.2rem;
+  cursor: pointer;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+.tab {
+  position: relative;
+}
+
+
 
 /* ✅ 반응형 추가 */
 @media (max-width: 768px) {
