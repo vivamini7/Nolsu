@@ -31,7 +31,7 @@ export default function ResultPage() {
         className="back-btn"
         onClick={() => navigate('/recommendation', { state: { selectedPlaces } })}
       >
-        🔙 돌아가기
+        ⏪돌아가기
       </button>
     </div>  
   );

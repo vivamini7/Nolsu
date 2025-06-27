@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './CSS/SurveyPage.css';
-import whoImage from './images/img_4.png';
+import howImage from './images/img_5.png';
 
 export default function SurveyPage() {
   const navigate = useNavigate();
@@ -12,16 +12,19 @@ export default function SurveyPage() {
   const age = queryParams.get('age');
   const sex = queryParams.get('sex');
   const purpose = queryParams.get('purpose');
-  const who = queryParams.get('who'); // 선택 유지용
+  const who = queryParams.get('who');
+  const how = queryParams.get('how');
 
-  const [selectedWho, setSelectedWho] = useState(who || null);
+  const [selectedWho, setSelectedWho] = useState(how || null);
+
   // ✅ 선택 후 다음 화면으로 이동
-  const handleSelect = (who) => {
-    setSelectedWho(who);
+  const handleSelect = (how) => {
+    setSelectedWho(how);
     setTimeout(() => {
       navigate(
-        `/survey6?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(
-          purpose)}&who=${encodeURIComponent(who)}`
+        `/survey5?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(
+          purpose)}&who=${encodeURIComponent(who)}
+        )}&how=${encodeURIComponent(how)}`
       );
     }, 300); // 0.3초 후 이동
   };
@@ -29,7 +32,7 @@ export default function SurveyPage() {
   // ✅ 뒤로가기 (설문 3단계로 이동)
   const handleBack = () => {
     navigate(
-      `/survey3?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}`
+      `/survey3?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}&who=${encodeURIComponent(who)}`
     );
   };
 
@@ -38,31 +41,31 @@ export default function SurveyPage() {
       <header className="survey-header">
         <div className="logo">놀슈</div>
         <div className="back-arrow" onClick={handleBack}>←</div>
-        <div className="progress-text">4 / 5</div>
+        <div className="progress-text">5 / 5</div>
         <div className="progress-bar">
           <div className="bar-track">
-            <div className="bar-fill" style={{ width: '80%' }}></div>
+            <div className="bar-fill" style={{ width: '100%' }}></div>
           </div>
         </div>
         <div className="menu-icon">☰</div>
       </header>
 
       <main className="survey-main">
-        <p className="survey-question">누구와 함께 오셨나요?</p>
-        <img src={whoImage} alt="누구와 함께" className="survey-image" />
+        <p className="survey-question">어떻게 오셨어요?</p>
+        <img src={howImage} alt="누구와 함께" className="survey-image" />
         <div className="survey-options">
           {[
-            '혼자 왔어요',
-            '가족과 함께',
-            '친구·지인과 함께',
-            '회사·팀 동료와 함께',
-          ].map((who) => (
+            '✈️비행기',
+            '🚌고속버스/시외버스',
+            '🚝기차',
+            '🚗자가용 및 렌트카',
+          ].map((how) => (
             <button
-              key={who}
-              className={`option-button ${selectedWho === who ? 'selected' : ''}`}
-              onClick={() => handleSelect(who)}
+              key={how}
+              className={`option-button ${selectedWho === how ? 'selected' : ''}`}
+              onClick={() => handleSelect(how)}
             >
-              {who}
+              {how}
             </button>
           ))}
         </div>

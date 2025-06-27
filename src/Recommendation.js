@@ -105,6 +105,16 @@ export default function RecommendationPage() {
         <div className="logo_last">놀슈</div>
         <div className="menu-icon-last">☰</div>
       </header>
+      <div className="footer-done-button">
+        <button
+          className="done-btn"
+          onClick={() =>
+            navigate('/result', { state: { selectedPlaces: selectedPlaces.filter(Boolean) } })
+          }
+        >
+          완료
+        </button>
+      </div>
 
       {/* 카테고리 필터 버튼 */}
       <div className="category-filter-buttons">
@@ -241,16 +251,6 @@ export default function RecommendationPage() {
           ) : (
             <p>📝 장소를 선택하면 자세한 정보를 볼 수 있어요.</p>
           )}
-        </div>
-        <div className="footer-done-button">
-          <button
-            className="done-btn"
-            onClick={() =>
-              navigate('/result', { state: { selectedPlaces: selectedPlaces.filter(Boolean) } })
-            }
-          >
-            ✅ 완료
-          </button>
         </div>
       </div>
     </div>

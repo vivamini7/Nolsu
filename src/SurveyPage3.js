@@ -22,7 +22,7 @@ export default function SurveyPage() {
       navigate(
         `/survey4?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}`
       );
-    }, 800); // 0.3초 뒤 이동
+    }, 300); // 0.3초 뒤 이동
   };
 
   // 뒤로 가기 (survey2로 이동, 선택값 유지)

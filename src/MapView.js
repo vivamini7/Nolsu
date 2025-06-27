@@ -24,7 +24,8 @@ export default function MapView({
       };
       kakaoMap.current = new kakao.maps.Map(container, options);
     });
-  }, []); // 최초 1회만 지도 생성
+  }, [latitude, longitude, zoom]); // ✅ 수정된 부분
+
 
   useEffect(() => {
     const { kakao } = window;
@@ -71,9 +72,9 @@ export default function MapView({
       ref={mapRef}
       style={{
         width: '100%',
-        height: '600px',
+        height: '500px',
         borderRadius: '12px',
-        boxShadow: '0 2px 8px rgba(0,0,0,0.1)',
+        boxShadow: '0 2px 8px rgb(216, 216, 216)',
       }}
     />
   );

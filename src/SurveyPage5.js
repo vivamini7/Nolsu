@@ -11,6 +11,7 @@ export default function SurveyPage5() {
   const sex = queryParams.get('sex');
   const purpose = queryParams.get('purpose');
   const who = queryParams.get('who');
+  const how = queryParams.get('how');
 
   const [clickedButton, setClickedButton] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -21,7 +22,7 @@ export default function SurveyPage5() {
 
     try {
       // ✅ GPT 응답 대신 임시로 응답 생성
-      const result = await getMockRecommendation({ age, sex, purpose, who });
+      const result = await getMockRecommendation({ age, sex, purpose, who, how });
 
       navigate('/recommendation', {
         state: {
@@ -29,6 +30,7 @@ export default function SurveyPage5() {
           sex,
           purpose,
           who,
+          how,
           result, // 임시 응답
         },
       });
@@ -61,6 +63,7 @@ export default function SurveyPage5() {
           <li>🔹 성별: <strong>{sex}</strong></li>
           <li>🔹 워케이션 목적: <strong>{purpose}</strong></li>
           <li>🔹 함께 온 사람: <strong>{who}</strong></li>
+          <li>🔹 이동수단: <strong>{how}</strong></li>
         </ul>
 
         <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
