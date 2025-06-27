@@ -45,9 +45,10 @@ export default function RecommendationPage() {
     '프로그램': 'program',
   };
 
-  useEffect(() => {
-    const fetchMarkers = async () => {
-      const res = await fetch(`${process.env.PUBLIC_URL}/data/chungbuk_combined_cleaned.json`);
+  const loadCategoryData = async (categoryKo) => {
+    const categoryEn = categoryMap[categoryKo];
+    try {
+      const res = await fetch(`${process.env.PUBLIC_URL}/data/${categoryEn}.json`);
       const data = await res.json();
 
       const resolved = await Promise.all(
@@ -58,9 +59,14 @@ export default function RecommendationPage() {
       );
 
       setAllMarkers(resolved.filter(Boolean));
-    };
+      setPlaceInfo(null); // 기존 선택 장소 초기화
+    } catch (err) {
+      console.error(`[파일 로딩 실패] /data/${categoryEn}.json`, err);
+    }
+  };
 
-    fetchMarkers();
+  useEffect(() => {
+    loadCategoryData(selectedCategory); // 초기 로딩
   }, []);
 
   useEffect(() => {
@@ -84,9 +90,7 @@ export default function RecommendationPage() {
     setSelectedPlaces(newPlaces);
   };
 
-  const filteredMarkers = allMarkers.filter(
-    (marker) => marker.category === categoryMap[selectedCategory]
-  );
+  const filteredMarkers = allMarkers;
 
   return (
     <div className="page-wrapper">
@@ -100,7 +104,10 @@ export default function RecommendationPage() {
         {categories.map((cat) => (
           <button
             key={cat}
-            onClick={() => setSelectedCategory(cat)}
+            onClick={() => {
+              setSelectedCategory(cat);
+              loadCategoryData(cat);
+            }}
             className={selectedCategory === cat ? 'filter-btn active' : 'filter-btn'}
           >
             {cat}

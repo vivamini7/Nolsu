@@ -1,0 +1,240 @@
+[
+    {
+    "name": "스시서울 청주점",
+    "address": "충북 청주시 서원구 예체로1번길 20 (스시서울 청주점)",
+    "time": "매일 12:00 - 23:00 / 15:00 - 18:00 브레이크타임",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3292&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "한우만",
+    "address": "충북 청주시 흥덕구 서부로1168번길 15",
+    "time": "식당/정육점 / 정기휴무 (매주 화요일) / 식당 / 11:00 - 22:00 / 21:00 라스트오더 / 정육점 10:00 - 22:00",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3252&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "권가제면소오송점",
+    "address": "충북 청주시 흥덕구 오송읍 오송생명14로 363",
+    "time": "10:30 - 14:30 / 14:00 라스트오더 / 정기휴무 (매주 일요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3249&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "문전성시 장수오리",
+    "address": "충북 청주시 흥덕구 서부로1168번길 23-8",
+    "time": "매일 11:00 - 21:00 / 20:30 라스트오더",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3248&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "반지하",
+    "address": "충북 청주시 흥덕구 가로수로1154번길 13",
+    "time": "매일 16:00 - 02:00",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3247&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "한상",
+    "address": "충북 청주시 흥덕구 가포산로 200",
+    "time": "11:00 - 21:00 / 15:00 - 17:00 브레이크타임 / 20:00 라스트오더",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3246&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "아르떼물들이다",
+    "address": "충북 청주시 흥덕구 원평로10번길 132",
+    "time": "11:00 - 19:00 / 18:00 라스트오더 / 정기휴무 (매주 월요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3243&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "산하춘",
+    "address": "충북 청주시 흥덕구 강내면 월탄1길 15-11",
+    "time": "11:30 - 21:00 / 정기휴무 (매주 월요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3241&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "중식당연",
+    "address": "충북 청주시 흥덕구 오송읍 오송생명7로 185",
+    "time": "11:00 - 21:00 / 15:00 - 17:00 브레이크타임 / 20:15 라스트오더 / 정기휴무 (매주 월요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3235&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "오성당",
+    "address": "충북 청주시 흥덕구 풍산로 55",
+    "time": "10:30 - 20:00 / 19:30 라스트오더 / 정기휴무 (매주 일요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3234&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "명품순두부봉명점",
+    "address": "충북 청주시 흥덕구 덕암로29번길 32",
+    "time": "매일 10:00 - 21:00",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3232&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "삼미원",
+    "address": "충북 청주시 흥덕구 백봉로 178",
+    "time": "11:30 - 22:00 / 15:30 - 16:30 휴게시간",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3229&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "스시서울 청주점",
+    "address": "충북 청주시 서원구 예체로1번길 20 (스시서울 청주점)",
+    "time": "매일 12:00 - 23:00 / 15:00 - 18:00 브레이크타임",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3292&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "한우만",
+    "address": "충북 청주시 흥덕구 서부로1168번길 15",
+    "time": "식당/정육점 / 정기휴무 (매주 화요일) / 식당 / 11:00 - 22:00 / 21:00 라스트오더 / 정육점 10:00 - 22:00",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3252&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "권가제면소오송점",
+    "address": "충북 청주시 흥덕구 오송읍 오송생명14로 363",
+    "time": "10:30 - 14:30 / 14:00 라스트오더 / 정기휴무 (매주 일요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3249&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "문전성시 장수오리",
+    "address": "충북 청주시 흥덕구 서부로1168번길 23-8",
+    "time": "매일 11:00 - 21:00 / 20:30 라스트오더",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3248&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "반지하",
+    "address": "충북 청주시 흥덕구 가로수로1154번길 13",
+    "time": "매일 16:00 - 02:00",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3247&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "한상",
+    "address": "충북 청주시 흥덕구 가포산로 200",
+    "time": "11:00 - 21:00 / 15:00 - 17:00 브레이크타임 / 20:00 라스트오더",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3246&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "아르떼물들이다",
+    "address": "충북 청주시 흥덕구 원평로10번길 132",
+    "time": "11:00 - 19:00 / 18:00 라스트오더 / 정기휴무 (매주 월요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3243&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "산하춘",
+    "address": "충북 청주시 흥덕구 강내면 월탄1길 15-11",
+    "time": "11:30 - 21:00 / 정기휴무 (매주 월요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3241&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "중식당연",
+    "address": "충북 청주시 흥덕구 오송읍 오송생명7로 185",
+    "time": "11:00 - 21:00 / 15:00 - 17:00 브레이크타임 / 20:15 라스트오더 / 정기휴무 (매주 월요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3235&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "명품순두부봉명점",
+    "address": "충북 청주시 흥덕구 덕암로29번길 32",
+    "time": "매일 10:00 - 21:00",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3232&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "삼미원",
+    "address": "충북 청주시 흥덕구 백봉로 178",
+    "time": "11:30 - 22:00 / 15:30 - 16:30 휴게시간",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3229&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "스시서울 청주점",
+    "address": "충북 청주시 서원구 예체로1번길 20 (스시서울 청주점)",
+    "time": "매일 12:00 - 23:00 / 15:00 - 18:00 브레이크타임",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3292&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "한우만",
+    "address": "충북 청주시 흥덕구 서부로1168번길 15",
+    "time": "식당/정육점 / 정기휴무 (매주 화요일) / 식당 / 11:00 - 22:00 / 21:00 라스트오더 / 정육점 10:00 - 22:00",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3252&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "권가제면소오송점",
+    "address": "충북 청주시 흥덕구 오송읍 오송생명14로 363",
+    "time": "10:30 - 14:30 / 14:00 라스트오더 / 정기휴무 (매주 일요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3249&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "문전성시 장수오리",
+    "address": "충북 청주시 흥덕구 서부로1168번길 23-8",
+    "time": "매일 11:00 - 21:00 / 20:30 라스트오더",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3248&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "반지하",
+    "address": "충북 청주시 흥덕구 가로수로1154번길 13",
+    "time": "매일 16:00 - 02:00",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3247&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "한상",
+    "address": "충북 청주시 흥덕구 가포산로 200",
+    "time": "11:00 - 21:00 / 15:00 - 17:00 브레이크타임 / 20:00 라스트오더",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3246&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "아르떼물들이다",
+    "address": "충북 청주시 흥덕구 원평로10번길 132",
+    "time": "11:00 - 19:00 / 18:00 라스트오더 / 정기휴무 (매주 월요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3243&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "산하춘",
+    "address": "충북 청주시 흥덕구 강내면 월탄1길 15-11",
+    "time": "11:30 - 21:00 / 정기휴무 (매주 월요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3241&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "중식당연",
+    "address": "충북 청주시 흥덕구 오송읍 오송생명7로 185",
+    "time": "11:00 - 21:00 / 15:00 - 17:00 브레이크타임 / 20:15 라스트오더 / 정기휴무 (매주 월요일)",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3235&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "명품순두부봉명점",
+    "address": "충북 청주시 흥덕구 덕암로29번길 32",
+    "time": "매일 10:00 - 21:00",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3232&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "name": "삼미원",
+    "address": "충북 청주시 흥덕구 백봉로 178",
+    "time": "11:30 - 22:00 / 15:30 - 16:30 휴게시간",
+    "category": "food",
+    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3229&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  }
+]
