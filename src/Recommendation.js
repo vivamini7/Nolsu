@@ -1,50 +1,76 @@
 import React, { useState, useEffect } from 'react';
 import './CSS/Recommendation.css';
 import MapView from './MapView';
-import mamukImg from './images/마묵.png';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
-
 
 const GEO_API_KEY = 'e3ab1ad7ef71ccdc312fea158c553d0a';
 
 const geocodeAddress = async (address) => {
-  const res = await fetch(
-    `https://dapi.kakao.com/v2/local/search/address.json?query=${encodeURIComponent(address)}`,
-    {
-      headers: {
-        Authorization: `KakaoAK ${GEO_API_KEY}`,
-      },
+  try {
+    const res = await fetch(
+      `https://dapi.kakao.com/v2/local/search/address.json?query=${encodeURIComponent(address)}`,
+      {
+        headers: {
+          Authorization: `KakaoAK ${GEO_API_KEY}`,
+        },
+      }
+    );
+    const data = await res.json();
+
+    if (data.documents && data.documents.length > 0) {
+      const loc = data.documents[0];
+      return { lat: parseFloat(loc.y), lng: parseFloat(loc.x) };
+    } else {
+      console.warn(`[지오코딩 실패] 주소를 찾을 수 없음: ${address}`);
+      return null;
     }
-  );
-  const data = await res.json();
-  const loc = data.documents[0];
-  return loc ? { lat: parseFloat(loc.y), lng: parseFloat(loc.x) } : null;
+  } catch (error) {
+    console.error(`[지오코딩 에러] 주소: ${address}`, error);
+    return null;
+  }
 };
 
 export default function RecommendationPage() {
-  const [categories, setCategories] = useState(['업무공간', '식당', '프로그램']);
+  const [categories, setCategories] = useState(['숙소', '업무공간', '식당', '프로그램']);
+  const [selectedCategory, setSelectedCategory] = useState('숙소');
   const [selectedPlaces, setSelectedPlaces] = useState([]);
-  const [markers, setMarkers] = useState([]);
+  const [allMarkers, setAllMarkers] = useState([]);
   const [placeInfo, setPlaceInfo] = useState(null);
+  const [imageExists, setImageExists] = useState(true);
+
+  const categoryMap = {
+    '숙소': 'stay',
+    '업무공간': 'cafe',
+    '식당': 'food',
+    '프로그램': 'program',
+  };
 
   useEffect(() => {
     const fetchMarkers = async () => {
       const res = await fetch(`${process.env.PUBLIC_URL}/data/chungbuk_combined_cleaned.json`);
       const data = await res.json();
-      const limited = data.slice(0, 100);
 
       const resolved = await Promise.all(
-        limited.map(async ({ name, address, time, category, url }) => {
+        data.map(async ({ name, address, time, category, url }) => {
           const coord = await geocodeAddress(address);
           return coord ? { name, address, time, category, url, ...coord } : null;
         })
       );
 
-      setMarkers(resolved.filter(Boolean));
+      setAllMarkers(resolved.filter(Boolean));
     };
 
     fetchMarkers();
   }, []);
+
+  useEffect(() => {
+    if (placeInfo) {
+      const imagePath = `${process.env.PUBLIC_URL}/images/${placeInfo.name}.jpg`;
+      fetch(imagePath)
+        .then((res) => setImageExists(res.ok))
+        .catch(() => setImageExists(false));
+    }
+  }, [placeInfo]);
 
   const handleMarkerClick = (place) => {
     setPlaceInfo(place);
@@ -58,12 +84,29 @@ export default function RecommendationPage() {
     setSelectedPlaces(newPlaces);
   };
 
+  const filteredMarkers = allMarkers.filter(
+    (marker) => marker.category === categoryMap[selectedCategory]
+  );
+
   return (
     <div className="page-wrapper">
       <header className="header_last">
         <div className="logo_last">놀슈</div>
         <div className="menu-icon-last">☰</div>
       </header>
+
+      {/* 카테고리 필터 버튼 */}
+      <div className="category-filter-buttons">
+        {categories.map((cat) => (
+          <button
+            key={cat}
+            onClick={() => setSelectedCategory(cat)}
+            className={selectedCategory === cat ? 'filter-btn active' : 'filter-btn'}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
 
       <DragDropContext onDragEnd={handleDragEnd}>
         <Droppable droppableId="category-tabs" direction="horizontal">
@@ -82,7 +125,7 @@ export default function RecommendationPage() {
                       >
                         {selected ? (
                           <>
-                            <img src={selected.image} alt={selected.name} />
+                            <img src={selected.image} alt={selected.name} className="tab-image" />
                             <div className="overlay">
                               <p>{selected.name}</p>
                               <span>🍀 {selected.address}</span>
@@ -92,18 +135,17 @@ export default function RecommendationPage() {
                               className="delete-btn"
                               onClick={() => {
                                 const newPlaces = [...selectedPlaces];
-                                newPlaces.splice(i, 1);
+                                newPlaces[i] = undefined;
                                 setSelectedPlaces(newPlaces);
-                                const newCats = [...categories];
-                                newCats.splice(i, 1);
-                                setCategories(newCats);
                               }}
                             >
                               ❌
                             </button>
                           </>
                         ) : (
-                          <div className="empty-card">{i + 1 < 10 ? `0${i + 1}` : i + 1} {label}</div>
+                          <div className="empty-card">
+                            {i + 1 < 10 ? `0${i + 1}` : i + 1} {label}
+                          </div>
                         )}
                       </div>
                     )}
@@ -131,7 +173,7 @@ export default function RecommendationPage() {
             latitude={36.6357}
             longitude={127.4917}
             zoom={9}
-            markers={markers}
+            markers={filteredMarkers}
             onMarkerClick={handleMarkerClick}
           />
         </div>
@@ -139,6 +181,16 @@ export default function RecommendationPage() {
         <div className="detail-card">
           {placeInfo ? (
             <>
+              {imageExists ? (
+                <img
+                  src={`${process.env.PUBLIC_URL}/images/${placeInfo.name}.jpg`}
+                  alt={placeInfo.name}
+                  className="place-image"
+                />
+              ) : (
+                <p>🖼️ 이미지가 없습니다</p>
+              )}
+
               <h3>{placeInfo.name}</h3>
               <p>🟢 {placeInfo.category}</p>
               <p>🍀 {placeInfo.address}</p>
@@ -155,14 +207,18 @@ export default function RecommendationPage() {
                 <button
                   className="select-button"
                   onClick={() => {
-                    const nextIndex = selectedPlaces.length;
-                    if (nextIndex < categories.length) {
+                    const nextIndex = selectedPlaces.findIndex((p) => p === undefined);
+                    const safeIndex = nextIndex !== -1 ? nextIndex : selectedPlaces.length;
+
+                    if (safeIndex < categories.length) {
                       const newPlace = {
                         name: placeInfo.name,
                         address: placeInfo.address,
-                        image: mamukImg,
+                        image: `${process.env.PUBLIC_URL}/images/${placeInfo.name}.jpg`,
                       };
-                      setSelectedPlaces([...selectedPlaces, newPlace]);
+                      const newPlaces = [...selectedPlaces];
+                      newPlaces[safeIndex] = newPlace;
+                      setSelectedPlaces(newPlaces);
                     } else {
                       alert('모든 카테고리 탭이 이미 선택되었습니다.');
                     }
