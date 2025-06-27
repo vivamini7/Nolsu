@@ -189,13 +189,6 @@
     "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=60&tourNo=2709&pageUnit=12&pageIndex=3&searchCnd=all&searchMainSe=ATTR"
   },
   {
-    "name": "이성산성(추성산성)",
-    "address": "충북 증평군 도안면 노암리 71-1",
-    "time": null,
-    "category": "program",
-    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=60&tourNo=2708&pageUnit=12&pageIndex=3&searchCnd=all&searchMainSe=ATTR"
-  },
-  {
     "name": "벨포레 관광단지",
     "address": "충북 증평군 도안면 벨포레길 346 (클럽하우스)",
     "time": null,
@@ -215,13 +208,6 @@
     "time": "07:00 ~ 18:00",
     "category": "program",
     "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=60&tourNo=2705&pageUnit=12&pageIndex=3&searchCnd=all&searchMainSe=ATTR"
-  },
-  {
-    "name": "레인보우힐링관광지",
-    "address": "충북 영동군 영동읍 영동힐링로 95",
-    "time": "10:00~18:00 / 매주 월요일, 설날, 추석 당일 휴관",
-    "category": "program",
-    "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=60&tourNo=2704&pageUnit=12&pageIndex=3&searchCnd=all&searchMainSe=ATTR"
   },
   {
     "name": "둔주봉",
