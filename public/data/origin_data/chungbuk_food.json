@@ -1,0 +1,1145 @@
+[
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240924110645622_zFMw.jpg",
+        "alt": "스시서울 청주점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3292_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240924110646074_epDI.png",
+        "alt": "스시서울 청주점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3292_1.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "스시서울 청주점 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28667] 충북 청주시 서원구 예체로1번길 20 (스시서울 청주점)"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "0507-1377-5091"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "매일 12:00 - 23:00",
+            "15:00 - 18:00 브레이크타임"
+          ]
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "https://blog.naver.com/sushiseoul-"
+        }
+      ]
+    },
+    "food_no": "3292",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3292&pageUnit=12&pageIndex=1&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240910105806690_xhSh.jpg",
+        "alt": "믹스토랑가경본점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3227_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240910105806924_B8Tr.jpg",
+        "alt": "믹스토랑가경본점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3227_1.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240910105806924_JP6f.jpg",
+        "alt": "믹스토랑가경본점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3227_2.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "믹스토랑가경본점 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28398] 충북 청주시 흥덕구 경산로43번길 12"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-231-5969"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "매일 11:00 - 22:00",
+            "21:00 라스트오더"
+          ]
+        }
+      ]
+    },
+    "introduction": [
+      "친절과 실력으로 환하게 손님을 맞이하는 믹스레스토랑입니다. 믹스레스토랑은 주방장이 직접 개발하여 매일 정성스럽게 만든 소스만을 사용합니다. 저렴한 가격에 최고의 맛을 제공해 드리겠습니다. 저렴한 가격으로 고퀄리티 패밀리 레스토랑을 경험해 보시길 바랍니다."
+    ],
+    "food_no": "3227",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3227&pageUnit=12&pageIndex=2&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240910100251002_L0zQ.jpg",
+        "alt": "대운분식 썸네일 이미지",
+        "local_path": "downloaded_images_food/3196_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "대운분식 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28113] 충북 청주시 흥덕구 옥산면 청주역로 652"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-260-0667"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "매일 08:00 - 21:00"
+        }
+      ]
+    },
+    "food_no": "3196",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3196&pageUnit=12&pageIndex=3&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240909033207184_1kd8.jpg",
+        "alt": "경복궁청주점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3174_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240909033207343_QSxT.jpg",
+        "alt": "경복궁청주점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3174_1.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240909033207343_kJCg.jpg",
+        "alt": "경복궁청주점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3174_2.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "경복궁청주점 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28378] 충북 청주시 흥덕구 2순환로 1250 3"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-237-4114"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "11:30 - 22:00",
+            "15:00 - 17:00 브레이크타임"
+          ]
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "http://www.entas.co.kr"
+        }
+      ]
+    },
+    "introduction": [
+      "경복궁의 아침은 300여 명의 한식 전문셰프들의 엄선한 최상급 육류와 제철 식재료를 정성껏 준비하면서 시작합니다. 경복궁의 시그니처 메뉴인 생갈비는 100%순수 갈빗살로 만든 덧살 없는 최고의 명품갈비만을 사용하고 있으며, 고품질 육류로 구성된 고급 코스 메뉴부터 합리적인 가격의 한정식까지 다양한 구성으로 고객님의 오감을 만족시켜 드립니다."
+    ],
+    "food_no": "3174",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3174&pageUnit=12&pageIndex=4&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240909020809329_Rg8U.jpg",
+        "alt": "청주본가본점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3157_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "청주본가본점 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28472] 충북 청주시 흥덕구 사운로 233"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-271-6080"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "매일 08:00 - 20:30",
+            "20:00 라스트오더"
+          ]
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "http://www.bonga.org/"
+        }
+      ]
+    },
+    "introduction": [
+      "갈비가 4대 정도 들어간 왕갈비탕이 인기 있는 소, 돼지갈비 전문점입니다. 단독 2층 건물로 여러 종류의 좌석이 준비되어 있는 곳이지요. 맑은 국물의 갈비탕에 들어간 갈비는 제공되는 집게와 가위를 이용해서 직접 고기를 떼어내어 먹는다고 합니다. 특색 있는 황태비빔냉면도 많이 찾는 편입니다."
+    ],
+    "food_no": "3157",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3157&pageUnit=12&pageIndex=5&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240909094241620_hHHe.jpg",
+        "alt": "김가네더덕밥 썸네일 이미지",
+        "local_path": "downloaded_images_food/3130_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "김가네더덕밥 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28386] 충북 청주시 서원구 대림로421번길 24"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-236-0789"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "11:30 - 21:00",
+            "14:30 - 17:00 브레이크타임"
+          ]
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "https://www.instagram.com/kimgane_7"
+        }
+      ]
+    },
+    "food_no": "3130",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3130&pageUnit=12&pageIndex=6&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240906050922536_ibOQ.jpg",
+        "alt": "빌라디쉐프나폴리점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3112_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240906050922810_W0FF.jpg",
+        "alt": "빌라디쉐프나폴리점 썸네일 이미지",
+        "local_path": "downloaded_images_food/3112_1.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "빌라디쉐프나폴리점 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28802] 충북 청주시 서원구 1순환로 1080-2"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-286-1080"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "11:30 - 21:30",
+            "15:00 - 17:30 브레이크타임",
+            "14:00, 20:30 라스트오더"
+          ]
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "https://www.instagram.com/official_villadichef/?utm_source=ig_profile_share&igshid=5tc6tc0e6gkq"
+        }
+      ]
+    },
+    "introduction": [
+      "주차장입구는 알레르망과 금강숯불돼지갈비",
+      "사이 골목으로 들어오시거나",
+      "일품한우마을 표지판 따라오시면 됩니다",
+      "수요미식회 방영, 화덕 피자, 스테이크, 파스타, 샐러드 및 와인 판매.",
+      "이탈리안셰프들이 운영하는 캐주얼 이탈리안",
+      "레스토랑입니다!!"
+    ],
+    "food_no": "3112",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3112&pageUnit=12&pageIndex=7&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240906042734952_KIhA.jpg",
+        "alt": "두꺼비식당 썸네일 이미지",
+        "local_path": "downloaded_images_food/3099_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "두꺼비식당 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27168] 충북 제천시 의림대로20길 21"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-647-8847"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "10:30~22:00"
+        }
+      ]
+    },
+    "introduction": [
+      "양푼에 나오는 등갈비가 인기인 한식당입니다. 토속적인 분위기인데요.",
+      "화상TV로 주방에서의 조리 과정을 확인할 수 있습니다. 버섯이 푸짐하게 올려진 매콤달콤한 양념의 양푼 갈비가 대표메뉴이지요."
+    ],
+    "food_no": "3099",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3099&pageUnit=12&pageIndex=8&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240906034638146_E0E4.jpg",
+        "alt": "청풍떡갈비 썸네일 이미지",
+        "local_path": "downloaded_images_food/3073_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240906034638333_Nevq.jpg",
+        "alt": "청풍떡갈비 썸네일 이미지",
+        "local_path": "downloaded_images_food/3073_1.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "청풍떡갈비 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27211] 충북 제천시 금성면 청풍호로 1643"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "0507-1312-1601"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "09:30~20:00"
+        }
+      ]
+    },
+    "introduction": [
+      "SINCE 2000~ 개업한 이래 꾸준히 전통을 이어오고 있는 유서 깊은 레스토랑 입니다. 이 지역을 떡갈비로 유명하게 하고 청풍을 대표하는 저희 청풍떡갈비 대표 메뉴는 마늘떡갈비 입니다. 오랜 세월에 걸쳐 습득한 노하우와 국내산 재료만을 사용하는 뚝심으로 한결같은 맛을 약속하겠습니다. 감사합니다."
+    ],
+    "food_no": "3073",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3073&pageUnit=12&pageIndex=9&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240906025009303_sqDF.jpg",
+        "alt": "트리제이 더 테라스 & 홈파티(산남점) 썸네일 이미지",
+        "local_path": "downloaded_images_food/3039_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240906025009565_3NLa.jpg",
+        "alt": "트리제이 더 테라스 & 홈파티(산남점) 썸네일 이미지",
+        "local_path": "downloaded_images_food/3039_1.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240906025009565_zG6E.jpg",
+        "alt": "트리제이 더 테라스 & 홈파티(산남점) 썸네일 이미지",
+        "local_path": "downloaded_images_food/3039_2.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240906025009565_g6Kv.jpg",
+        "alt": "트리제이 더 테라스 & 홈파티(산남점) 썸네일 이미지",
+        "local_path": "downloaded_images_food/3039_3.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "트리제이 더 테라스 & 홈파티(산남점) - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28629] 충북 청주시 서원구 원흥로 17"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-716-0242"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "12:00 - 21:30",
+            "15:00 - 18:00 브레이크타임",
+            "정기휴무 (매주 화,수요일)"
+          ]
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "https://treej.modoo.at"
+        }
+      ]
+    },
+    "introduction": [
+      "트리제이 더 테라스의 메뉴를 그대로 원하시는 장소에서 즐길수 있습니다."
+    ],
+    "food_no": "3039",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3039&pageUnit=12&pageIndex=10&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240906022001411_quSq.jpg",
+        "alt": "방아실돼지집 썸네일 이미지",
+        "local_path": "downloaded_images_food/3013_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "방아실돼지집 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[29002] 충북 옥천군 군북면 방아실길 9 (상점)"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-732-5653"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "11:00~20:00"
+        }
+      ]
+    },
+    "introduction": [
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "3013",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=3013&pageUnit=12&pageIndex=11&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240906020050541_ddbP.jpg",
+        "alt": "경성만두요리전문점 썸네일 이미지",
+        "local_path": "downloaded_images_food/2997_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240906020050784_Z2tD.jpg",
+        "alt": "경성만두요리전문점 썸네일 이미지",
+        "local_path": "downloaded_images_food/2997_1.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "경성만두요리전문점 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[29037] 충북 옥천군 옥천읍 옥천로 1644 (음식점)"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-732-7942"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "11:00~20:30"
+        }
+      ]
+    },
+    "introduction": [
+      "직접 손으로 빚은 만두요리를 드실 수 있는 옥천의 명가 경성만두요리전문점입니다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2997",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2997&pageUnit=12&pageIndex=12&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240906110501897_aeug.jpg",
+        "alt": "월오동묵집 썸네일 이미지",
+        "local_path": "downloaded_images_food/2943_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "월오동묵집 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28758] 충북 청주시 상당구 다리실로249번길 177 (월오동묵집)"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-292-5583"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "10:30 - 20:30",
+            "정기휴무 (매달 2, 4번째 월요일)"
+          ]
+        }
+      ]
+    },
+    "food_no": "2943",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2943&pageUnit=12&pageIndex=13&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240905033907239_2WTO.jpg",
+        "alt": "남일순대 썸네일 이미지",
+        "local_path": "downloaded_images_food/2900_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240905033907502_eKMw.jpg",
+        "alt": "남일순대 썸네일 이미지",
+        "local_path": "downloaded_images_food/2900_1.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240905033907502_xKU4.jpg",
+        "alt": "남일순대 썸네일 이미지",
+        "local_path": "downloaded_images_food/2900_2.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "남일순대 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28187] 충북 청주시 상당구 남일면 효촌송정1길 5-10"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "0507-1367-3560"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "10:30 - 21:00",
+            "20:30 라스트오더",
+            "정기휴무 (매주 일요일)"
+          ]
+        }
+      ]
+    },
+    "introduction": [
+      "유아의자 , 주차장 구비"
+    ],
+    "food_no": "2900",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2900&pageUnit=12&pageIndex=14&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240905032339400_MDz9.jpg",
+        "alt": "홍익돈까스청주용암점 썸네일 이미지",
+        "local_path": "downloaded_images_food/2882_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "홍익돈까스청주용암점 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28788] 충북 청주시 상당구 단재로 182"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-288-7798"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "11:30 - 21:10",
+            "14:30 - 17:00 브레이크타임",
+            "13:50, 20:30 라스트오더"
+          ]
+        }
+      ]
+    },
+    "food_no": "2882",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2882&pageUnit=12&pageIndex=15&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240905020332357_kOvu.jpg",
+        "alt": "사석한우촌 썸네일 이미지",
+        "local_path": "downloaded_images_food/2837_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240905020332628_0nxM.jpg",
+        "alt": "사석한우촌 썸네일 이미지",
+        "local_path": "downloaded_images_food/2837_1.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "사석한우촌 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27826] 충북 진천군 진천읍 금사로 391"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-537-2080"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "10:00~20:40 매주 월요일 휴무"
+        }
+      ]
+    },
+    "introduction": [
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2837",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2837&pageUnit=12&pageIndex=16&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240905115924856_gOZv.jpg",
+        "alt": "가마골쉼터 썸네일 이미지",
+        "local_path": "downloaded_images_food/2800_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240905115925120_tCbp.jpg",
+        "alt": "가마골쉼터 썸네일 이미지",
+        "local_path": "downloaded_images_food/2800_1.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "가마골쉼터 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27023] 충북 단양군 가곡면 새밭로 547-8"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "0507-1426-8289"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "11:30~19:00"
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "https://www.instagram.com/danyang_gamagol"
+        }
+      ]
+    },
+    "introduction": [
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2800",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2800&pageUnit=12&pageIndex=17&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20221114014433863_QDbS.png",
+        "alt": "초롱가든 썸네일 이미지",
+        "local_path": "downloaded_images_food/2533_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20221114014433964_Nn9z.png",
+        "alt": "초롱가든 썸네일 이미지",
+        "local_path": "downloaded_images_food/2533_1.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20221114014433964_yvqr.png",
+        "alt": "초롱가든 썸네일 이미지",
+        "local_path": "downloaded_images_food/2533_2.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "초롱가든 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27859] 충북 진천군 초평면 평화로 452"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-532-6476"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "09:00~22:00"
+        }
+      ]
+    },
+    "introduction": [
+      "어칼국수 붕어, 메기, 잉어를 압력솥에 고아 믹서기로 뼈 채 갈아 만든 자양강장 최고의 스태미너 음식입니다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2533",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2533&pageUnit=12&pageIndex=18&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240430012055319_FDZ4.jpg",
+        "alt": "착한식탁 썸네일 이미지",
+        "local_path": "downloaded_images_food/2738_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "착한식탁 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28747] 충북 청주시 상당구 수영로 360 (우미린에듀파크1단지)"
+        },
+        {
+          "항목": "대표전화",
+          "내용": [
+            "0507-1339-1546",
+            "0505713391546"
+          ]
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "월 : 09:30 - 19:00",
+            "화 : 09:30 - 19:00",
+            "수 : 09:30 - 19:00",
+            "목 : 09:30 - 19:00",
+            "금 : 09:30 - 19:00",
+            "토 : 10:00 - 18:00",
+            "일 : 10:00 - 18:00"
+          ]
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "https://smartstore.naver.com/goodt_able"
+        }
+      ]
+    },
+    "introduction": [
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2738",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2738&pageUnit=12&pageIndex=19&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20240909101100220_2QVc.jpg",
+        "alt": "종로식당 썸네일 이미지",
+        "local_path": "downloaded_images_food/2500_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240909101100484_BW1M.jpg",
+        "alt": "종로식당 썸네일 이미지",
+        "local_path": "downloaded_images_food/2500_1.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20240909101100484_ppdX.jpg",
+        "alt": "종로식당 썸네일 이미지",
+        "local_path": "downloaded_images_food/2500_2.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "종로식당 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27388] 충북 충주시 관아3길 22"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-845-4042"
+        }
+      ]
+    },
+    "introduction": [
+      "충북 충주시 성내동(중앙시장 뒤편)에 위치한 한식전문점.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2500",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2500&pageUnit=12&pageIndex=20&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_20221114115050034_pK4C.png",
+        "alt": "황제시래기명태조림 썸네일 이미지",
+        "local_path": "downloaded_images_food/2526_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20221114115050118_r7X0.png",
+        "alt": "황제시래기명태조림 썸네일 이미지",
+        "local_path": "downloaded_images_food/2526_1.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20221114115050118_L1Jn.png",
+        "alt": "황제시래기명태조림 썸네일 이미지",
+        "local_path": "downloaded_images_food/2526_2.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "황제시래기명태조림 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27918] 충북 증평군 증평읍 인삼로 75"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-838-8879"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "11:00~21:30"
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "https://kms1297.modoo.at/"
+        }
+      ]
+    },
+    "introduction": [
+      "증평 자랑거리 황제 시래기 명태조림 맛집",
+      "저희 증평맛집인 황제 시래기 명태조림은 청정 자연지역의 덕장에서 작업한 최상품의 명태만을 엄선하여 사용하며 시래기는 국내산만을 사용합니다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2526",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2526&pageUnit=12&pageIndex=21&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_15668783033.jpg",
+        "alt": "소연재 썸네일 이미지",
+        "local_path": "downloaded_images_food/2117_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "소연재 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[28633] 충북 청주시 서원구 청남로 1865-6"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-284-6888"
+        },
+        {
+          "항목": "운영시간",
+          "내용": [
+            "11:00 - 21:00",
+            "15:30 - 17:00 브레이크타임",
+            "14:30, 20:00 라스트오더"
+          ]
+        }
+      ]
+    },
+    "introduction": [
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2117",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2117&pageUnit=12&pageIndex=22&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_15496107343.jpg",
+        "alt": "신정골전통뼈해장국 썸네일 이미지",
+        "local_path": "downloaded_images_food/2095_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "신정골전통뼈해장국 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "충북 영동군 영동읍 동정로 28"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-745-8977"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "10:00~22:00"
+        }
+      ]
+    },
+    "introduction": [
+      "아침은해장국 점심은식사 저녁은 소중한 사람들과 유쾌한 만남, 맛있는 즐거움이 있는곳 신정골 전통 뼈 해장국 입니다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2095",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2095&pageUnit=12&pageIndex=23&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_list_11_2_35.jpg",
+        "alt": "엽돈재가든 썸네일 이미지",
+        "local_path": "downloaded_images_food/2079_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "엽돈재가든 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27824] 충북 진천군 백곡면 백곡로 184"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-532-3366"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "11:00~20:00 매주 월요일 휴무"
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "http://www.yubdon.com/"
+        }
+      ]
+    },
+    "introduction": [
+      "진천군 백곡면의 엽돈재에 있는 숯불구이 전문점이다. 전국적으로 유명한 진천참숯으로 굽는 한우와 돼지갈비맛이 일품인 곳이다. 한우는 A+등급만을 선보여서 쫄깃하고 담백한 육질을 맛볼 수 있다. 직접 만든 양념에 숙성한 돼지갈비는 남녀노소 누구나 좋아하는 대중적인 먹을거리로 양념덕분에 담백하고 느끼하지 않아서 양껏 먹을 수 있다. 참숯은 함께 운영중인 참숯가마에서 직접 만든 것으로 질이 좋아서 고기의 기름기를 빼고 은은한 향까지 베어나서 고기의 맛을 더욱 배가시키는 역할을 한다. 식당 내에 연못과 골프연습장, 참숯전시장이 있어서 먹을거리와 볼거리를 함께 제공하고 있다. 가까운 명소로는 배티성지와 백곡저수지가 있다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2079",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2079&pageUnit=12&pageIndex=24&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_list_11_2_11.jpg",
+        "alt": "두부촌 썸네일 이미지",
+        "local_path": "downloaded_images_food/2058_0.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20221114010529601_26xv.png",
+        "alt": "두부촌 썸네일 이미지",
+        "local_path": "downloaded_images_food/2058_1.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20221114010529601_U9n7.png",
+        "alt": "두부촌 썸네일 이미지",
+        "local_path": "downloaded_images_food/2058_2.jpg"
+      },
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/thumb/t_20221114010529601_yDBJ.png",
+        "alt": "두부촌 썸네일 이미지",
+        "local_path": "downloaded_images_food/2058_3.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "두부촌 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27826] 충북 진천군 진천읍 금사로 341"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-533-9946"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "08:30~20:30"
+        }
+      ]
+    },
+    "introduction": [
+      "진천읍에 있는 두부요리전문점으로 깔끔한 황토색 건물이 눈에 띄는 곳이다. 직접 만든 두부요리가 일품인 곳으로  다양한 두부요리와 장요리를 맛볼 수 있는 향토음식점이다. 대표음식은 두부보쌈으로 직접 만든 두부에 고소한 삼겹살 보쌈이 어우러지는 음식이다. 신선한 야채에 두부와 볶은김치가 어우러지는 맛이 최고다. 특히 된장에 삭힌 깻잎에 싸 먹으면 알맞게 간이 벤 깻잎의 향긋한 맛과 향이 두부와 어우러져 더욱 맛이 좋다. 소박한 반찬이 가득한 상차림은 마치 집밥을 먹는듯 정겹고 친근한 기분을 느낄 수 있다. 충북향토음식경연대회에서 대상을 수상하기도 했으며 비지장, 청국장, 된장 등 전통장 백반도 사람들의 많은 사랑을 받고 있다. 진천읍내 외곽에 있으며 인근의 명소로는 정송강사와 보탑사, 만뢰산자연생태공원, 김유신장군 탄생지와 태실이 있다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2058",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2058&pageUnit=12&pageIndex=25&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_list_10_2_42.jpg",
+        "alt": "청호식당 썸네일 이미지",
+        "local_path": "downloaded_images_food/2044_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "청호식당 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27008] 충북 단양군 매포읍 삼봉로 644-13 (도담삼봉휴게소)"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-421-0091"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "06:00~22:00"
+        }
+      ]
+    },
+    "introduction": [
+      "단양팔경의 1경인 도담삼봉이 한 눈에 들어오는 남한강변에 자리하고 있는 향토음식점이다. 어머니의 손맛이 느껴지는 정겨운 맛의 음식을 선보이고 있다. 더덕구이는 직접 재배한 통통한 더덕에 맛깔스런 양념을 하여 구워낸 것으로 더덕 특유의 맛과 향이 깊이있게 느껴지는 음식이다. 함께 제공되는 밑반찬은 직접 재배한 농산물로 만들어서 더욱 신선하고 정성이 가득 느껴진다. 대부분의 식자재를 직접 농사지어서 공급하고 있어서 믿고 먹을 수 있는 건강한 밥상을 만날 수 있다. 더덕구이 외에도 쏘가리 매운탕과 산채비빔밥 등 다양한 향토음식을 만날 수 있다. 어머니의 정성과 손맛이 가득한 음식이 있고 주위에는 남한강의 훌륭한 풍광이 펼쳐져서 맛과 멋을 두루 느낄 수 있는 곳이다. 가까운 명소로는 도담삼봉과 석문, 영천리 측백나무 숲 등이 있다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2044",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2044&pageUnit=12&pageIndex=26&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_list_10_2_23.jpg",
+        "alt": "삼정식당 썸네일 이미지",
+        "local_path": "downloaded_images_food/2029_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "삼정식당 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27013] 충북 단양군 단양읍 상진2길 36 (삼정정육식당)"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-423-0975"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "08:00~22:00"
+        }
+      ]
+    },
+    "introduction": [
+      "단양읍에 있는 한우생고기 전문점으로 향토음식점으로 지정된 곳이다. 자체개발한 삼겹살고추장구이로 사람들의 발길이 끊이지 않는 곳이다. 삼겹살고추장구이는 삼겹살을 직접 개발한 고추장양념에 숙성한 것으로 주인장의 손맛이 속속 베어나는 특별한 맛을 자랑한다. 특히 고추장 양념은 화학조미료를 전혀 사용하지 않고 과일과 채소 등 천연재료로 만든 것으로 질리지 않는 깊은 맛을 자랑한다. 정성으로 만든 양념은 토종돼지와 어우러져 쫄깃한 육질에 속속 베어들어 매콤하고 알싸한 감칠맛이 일품이다. 단양군의 아름다운 자연환경을 눈과 마음으로 돌아보고 삼겹살고추장구이로 입맛을 돋운다면 더할나위 없이 즐거운 여행길이 될 것 이다. 가까운 곳에 고수동굴과 천동동굴, 다리안관광지, 양방산전망대가 있다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2029",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2029&pageUnit=12&pageIndex=27&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_list_10_2_2.jpg",
+        "alt": "감천매운탕 썸네일 이미지",
+        "local_path": "downloaded_images_food/2012_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "감천매운탕 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27018] 충북 단양군 영춘면 강변로 95 (감천식당)"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-422-8801"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "10:00~22:00"
+        }
+      ]
+    },
+    "introduction": [
+      "소백산자락에 남한강의 맑은 물줄기가 지나는 단양군 영춘면에 자리하고 있는 향토음식점이다. 남한강의 자랑인 쏘가리로 최고의 명품 민물요리를 선보이고 있다. 산에서 내려오는 계곡물이 상수원으로 소백산의 맑은 물로 직접 음식을 하고 있다. 또한 바로 앞의 맑은 물을 자랑하는 남한강 상류에서 직접 잡은 자연산 민물고기로 요리하고 있다. 주위의 환경과 식재료 모두 자연의 기운을 담은 최고임을 자부하고 있다. 특히 이 지역은 옛날 지나가는 고을 원님이 목이 말라 목이 축이고 물이 달다해서 감천동이라 이름지었다는 곳이다. 맑고 맛좋은 물맛과 남한강의 쏘가리에 주인장의 손맛이 만나서 최고의 쏘가리 매운탕 맛을 자랑한다. 근처에 온달관광지와 군간유원지,  영춘향교 등 볼거리가 많이 있다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "2012",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2012&pageUnit=12&pageIndex=28&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_list_9_2_2.jpg",
+        "alt": "외할머니집 본점 썸네일 이미지",
+        "local_path": "downloaded_images_food/1998_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "외할머니집 본점 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27607] 충북 음성군 감곡면 가곡로 230"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-881-6122"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "06:30~20:30"
+        },
+        {
+          "항목": "홈페이지",
+          "내용": "http://www.043-881-6122.kti114.net/idx.htm"
+        }
+      ]
+    },
+    "introduction": [
+      "음성군 감곡면에 있는 향토음식점으로 이름처럼 외갓집에 놀러온 편안한 기분으로 식사를 할 수 있는 곳이다. 외할머니집에서 자랑하는 토종순두부는 매일 아침마다 100% 국산콩을 이용해 전통방식으로 직접 손두부 만들고있다. 신선한 손두부는 볶은 감치와 곁들이면 속도 든든하고 맛도 좋은 최고의 건강식품이다. 또한 손맛과 정성이 느껴지는 콩비지장과 청국장은 정말 외할머니가 해주는 음식처럼 따뜻하고 정겨운 맛으로 당연히 반할 만한 맛이다. 상에 함께 오르는 모든 밑반찬은 매일 아침 신선한 식재료로 새로 만들어 올리기 때문에 늘 건강하고 정성 가득한 밥상을 만날 수 있다. 근처의 볼거리로는 음성기록역사관과 감곡성당, 매괴박물관이 있다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "1998",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=1998&pageUnit=12&pageIndex=29&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  },
+  {
+    "images": [
+      {
+        "url": "https://tour.chungbuk.go.kr/DATA/tour/main/thumb/t_list_9_2_9.jpg",
+        "alt": "달거니해장국 썸네일 이미지",
+        "local_path": "downloaded_images_food/1983_0.jpg"
+      }
+    ],
+    "info_table": {
+      "caption": "달거니해장국 - 주소,대표전화,운영시간,홈페이지주소 순으로 정보를 제공합니다.",
+      "rows": [
+        {
+          "항목": "주소",
+          "내용": "[27607] 충북 음성군 감곡면 가곡로 226"
+        },
+        {
+          "항목": "대표전화",
+          "내용": "043-883-8888"
+        },
+        {
+          "항목": "운영시간",
+          "내용": "06:00~21:00"
+        }
+      ]
+    },
+    "introduction": [
+      "음성군 감곡면에 있는 해장국 전문점이다. 갖가지 종류의 해장국 메뉴가 준비되어 있다. 새벽부터 오후까지만 영업을 하고 있어서 이른 아침에 식사도 가능한 곳이다. 내장탕과 선지해장국, 우거지 해장국 등 다양한 종류가 있어서 입맛에 따라 맛보는 재미도 있다. 내장탕은 냄새가 나지 않도록 깨끗하게 씻은 내장과 갖은 재료를 넣어 맛을 냈다. 얼큰한 국물이 일품인 해장국 뚝배기 한그릇은 마음까지 따뜻하게 해주는 정성어린 맛이 묻어난다. 근처에 가볼만한 곳으로는 음성기록역사관과 감곡성당, 매괴박물관 등이 있다.",
+      "애견동반가능여부 : 부"
+    ],
+    "food_no": "1983",
+    "detail_url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=1983&pageUnit=12&pageIndex=30&searchCnd=all&searchMainSe=FOOD&searchTourSe=01,02,03,05"
+  }
+]
