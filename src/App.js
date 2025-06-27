@@ -6,6 +6,7 @@ import SurveyPage3 from './SurveyPage3';
 import SurveyPage4 from './SurveyPage4'; 
 import SurveyPage5 from './SurveyPage5'; 
 import RecommendationPage from './Recommendation';
+import Result from './Result';
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="/survey4" element={<SurveyPage4 />} />
         <Route path="/survey5" element={<SurveyPage5 />} />
         <Route path="/recommendation" element={<RecommendationPage />} />
+        <Route path="/result" element={<Result />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </HashRouter>

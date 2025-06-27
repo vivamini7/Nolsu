@@ -1,0 +1,35 @@
+.result-page {
+  padding: 20px;
+}
+
+.place-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.place-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: #f5f5f5;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.place-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.back-btn {
+  padding: 10px 20px;
+  background: #e76f51;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

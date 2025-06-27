@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './CSS/Recommendation.css';
 import MapView from './MapView';
 import { DragDropContext, Droppable, Draggable } from '@hello-pangea/dnd';
+import { useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 const GEO_API_KEY = 'e3ab1ad7ef71ccdc312fea158c553d0a';
 
@@ -31,12 +33,17 @@ const geocodeAddress = async (address) => {
 };
 
 export default function RecommendationPage() {
-  const [categories, setCategories] = useState(['숙소', '업무공간', '식당', '프로그램']);
+  const [categories] = useState(['숙소', '업무공간', '식당', '프로그램']); // 고정
   const [selectedCategory, setSelectedCategory] = useState('숙소');
-  const [selectedPlaces, setSelectedPlaces] = useState([]);
   const [allMarkers, setAllMarkers] = useState([]);
   const [placeInfo, setPlaceInfo] = useState(null);
   const [imageExists, setImageExists] = useState(true);
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const [selectedPlaces, setSelectedPlaces] = useState(() => {
+    return location.state?.selectedPlaces || [undefined, undefined, undefined, undefined];
+  });
 
   const categoryMap = {
     '숙소': 'stay',
@@ -59,14 +66,14 @@ export default function RecommendationPage() {
       );
 
       setAllMarkers(resolved.filter(Boolean));
-      setPlaceInfo(null); // 기존 선택 장소 초기화
+      setPlaceInfo(null);
     } catch (err) {
       console.error(`[파일 로딩 실패] /data/${categoryEn}.json`, err);
     }
   };
 
   useEffect(() => {
-    loadCategoryData(selectedCategory); // 초기 로딩
+    loadCategoryData(selectedCategory);
   }, []);
 
   useEffect(() => {
@@ -119,8 +126,8 @@ export default function RecommendationPage() {
         <Droppable droppableId="category-tabs" direction="horizontal">
           {(provided) => (
             <div className="category-tabs" ref={provided.innerRef} {...provided.droppableProps}>
-              {categories.map((label, i) => {
-                const selected = selectedPlaces[i];
+              {selectedPlaces.map((selected, i) => {
+                const label = categories[i] || `기타`;
                 return (
                   <Draggable key={i} draggableId={`tab-${i}`} index={i}>
                     {(provided) => (
@@ -163,8 +170,7 @@ export default function RecommendationPage() {
               <div
                 className="tab add-tab"
                 onClick={() => {
-                  const newLabel = `기타`;
-                  setCategories([...categories, newLabel]);
+                  setSelectedPlaces([...selectedPlaces, undefined]); // ✅ 탭만 추가
                 }}
               >
                 <div className="empty-card">➕ 추가</div>
@@ -217,18 +223,15 @@ export default function RecommendationPage() {
                     const nextIndex = selectedPlaces.findIndex((p) => p === undefined);
                     const safeIndex = nextIndex !== -1 ? nextIndex : selectedPlaces.length;
 
-                    if (safeIndex < categories.length) {
-                      const newPlace = {
-                        name: placeInfo.name,
-                        address: placeInfo.address,
-                        image: `${process.env.PUBLIC_URL}/images/${placeInfo.name}.jpg`,
-                      };
-                      const newPlaces = [...selectedPlaces];
-                      newPlaces[safeIndex] = newPlace;
-                      setSelectedPlaces(newPlaces);
-                    } else {
-                      alert('모든 카테고리 탭이 이미 선택되었습니다.');
-                    }
+                    const newPlace = {
+                      name: placeInfo.name,
+                      address: placeInfo.address,
+                      image: `${process.env.PUBLIC_URL}/images/${placeInfo.name}.jpg`,
+                    };
+
+                    const newPlaces = [...selectedPlaces];
+                    newPlaces[safeIndex] = newPlace;
+                    setSelectedPlaces(newPlaces);
                   }}
                 >
                   선택하기
@@ -238,6 +241,16 @@ export default function RecommendationPage() {
           ) : (
             <p>📝 장소를 선택하면 자세한 정보를 볼 수 있어요.</p>
           )}
+        </div>
+        <div className="footer-done-button">
+          <button
+            className="done-btn"
+            onClick={() =>
+              navigate('/result', { state: { selectedPlaces: selectedPlaces.filter(Boolean) } })
+            }
+          >
+            ✅ 완료
+          </button>
         </div>
       </div>
     </div>
