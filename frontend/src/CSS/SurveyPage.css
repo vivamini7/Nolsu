@@ -52,6 +52,12 @@
   margin-left: 34.5rem;
 }
 
+/* 예시: CSS 파일에 추가 */
+.custom-input:focus {
+  outline: none;
+  border-color: #6DB6FD;
+}
+
 .bar-track {
   width: 300px;
   height: 10px;

@@ -9,12 +9,14 @@ export default function SurveyPage5() {
 
   const clean = (str) => decodeURIComponent(str || '').replace(/[)}]+$/, '').trim();
 
+  // 🔹 clean 함수 적용
   const age = clean(queryParams.get('age'));
   const sex = clean(queryParams.get('sex'));
   const purpose = clean(queryParams.get('purpose'));
   const who = clean(queryParams.get('who'));
   const how = clean(queryParams.get('how'));
-
+  const where = clean(queryParams.get('where'));
+  const what = clean(queryParams.get('what'));
 
   const [clickedButton, setClickedButton] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -28,7 +30,9 @@ export default function SurveyPage5() {
       gender: sex,
       purpose: purpose,
       companions: who,
-      transport: how
+      transport: how,
+      location: where,
+      what: what
     };
 
     try {
@@ -51,6 +55,8 @@ export default function SurveyPage5() {
           purpose,
           who,
           how,
+          where,
+          what,
           result, // 🔹 GPT 추천 결과 JSON
         },
       });
@@ -85,6 +91,8 @@ export default function SurveyPage5() {
           <li>🔹 워케이션 목적: <strong>{purpose}</strong></li>
           <li>🔹 함께 온 사람: <strong>{who}</strong></li>
           <li>🔹 이동수단: <strong>{how}</strong></li>
+          <li>🔹 희망지역: <strong>{where}</strong></li>
+          <li>🔹 워케이션 스타일: <strong>{what}</strong></li>
         </ul>
 
         <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>

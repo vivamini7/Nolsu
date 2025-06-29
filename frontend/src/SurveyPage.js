@@ -20,10 +20,10 @@ export default function SurveyPage() {
       <header className="survey-header">
         <div className="logo">놀슈</div>
         <div className="back-arrow">←</div>
-        <div className="progress-text">1 / 5</div>
+        <div className="progress-text">1 / 7</div>
         <div className="progress-bar">
           <div className="bar-track">
-            <div className="bar-fill" style={{ width: '20%' }}></div>
+            <div className="bar-fill" style={{ width: '15%' }}></div>
           </div>
         </div>
         <div className="menu-icon">☰</div>

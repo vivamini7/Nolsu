@@ -14,17 +14,18 @@ export default function SurveyPage() {
   const purpose = queryParams.get('purpose');
   const who = queryParams.get('who');
   const how = queryParams.get('how');
+  const where = queryParams.get('where');
 
-  const [selectedWho, setSelectedWho] = useState(how || null);
+  const [selectedWho, setSelectedWho] = useState(where || null);
 
   // ✅ 선택 후 다음 화면으로 이동
-  const handleSelect = (how) => {
-    setSelectedWho(how);
+  const handleSelect = (where) => {
+    setSelectedWho(where);
     setTimeout(() => {
       navigate(
-        `/survey7?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(
-          purpose)}&who=${encodeURIComponent(who)}
-        )}&how=${encodeURIComponent(how)}`
+        `/survey8?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(
+          purpose)}&who=${encodeURIComponent(who)}&how=${encodeURIComponent(how)}
+        )}&where=${encodeURIComponent(where)}`
       );
     }, 300); // 0.3초 후 이동
   };
@@ -32,7 +33,7 @@ export default function SurveyPage() {
   // ✅ 뒤로가기 (설문 3단계로 이동)
   const handleBack = () => {
     navigate(
-      `/survey3?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}&who=${encodeURIComponent(who)}`
+      `/survey3?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}&who=${encodeURIComponent(who)}&how=${encodeURIComponent(how)}`
     );
   };
 
@@ -41,31 +42,34 @@ export default function SurveyPage() {
       <header className="survey-header">
         <div className="logo">놀슈</div>
         <div className="back-arrow" onClick={handleBack}>←</div>
-        <div className="progress-text">5 / 7</div>
+        <div className="progress-text">6 / 7</div>
         <div className="progress-bar">
           <div className="bar-track">
-            <div className="bar-fill" style={{ width: '72%' }}></div>
+            <div className="bar-fill" style={{ width: '85%' }}></div>
           </div>
         </div>
         <div className="menu-icon">☰</div>
       </header>
 
       <main className="survey-main">
-        <p className="survey-question">어떻게 오셨어요?</p>
+        <p className="survey-question">목적지가 정해져았나요?</p>
         <img src={howImage} alt="누구와 함께" className="survey-image" />
         <div className="survey-options">
           {[
-            '✈️비행기',
-            '🚌고속버스/시외버스',
-            '🚝기차',
-            '🚗자가용 및 렌트카',
-          ].map((how) => (
+            '청주',
+            '제천',
+            '충주',
+            '단양',
+            '진천',
+            '보은',
+            '고민중이에요',
+          ].map((where) => (
             <button
-              key={how}
-              className={`option-button ${selectedWho === how ? 'selected' : ''}`}
-              onClick={() => handleSelect(how)}
+              key={where}
+              className={`option-button ${selectedWho === where ? 'selected' : ''}`}
+              onClick={() => handleSelect(where)}
             >
-              {how}
+              {where}
             </button>
           ))}
         </div>

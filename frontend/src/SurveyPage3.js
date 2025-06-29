@@ -35,10 +35,10 @@ export default function SurveyPage() {
       <header className="survey-header">
         <div className="logo">놀슈</div>
         <div className="back-arrow" onClick={handleBack}>←</div>
-        <div className="progress-text">3 / 5</div>
+        <div className="progress-text">3 / 7</div>
         <div className="progress-bar">
           <div className="bar-track">
-            <div className="bar-fill" style={{ width: '60%' }}></div>
+            <div className="bar-fill" style={{ width: '43%' }}></div>
           </div>
         </div>
         <div className="menu-icon">☰</div>
