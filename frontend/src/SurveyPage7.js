@@ -33,7 +33,7 @@ export default function SurveyPage() {
   // ✅ 뒤로가기 (설문 3단계로 이동)
   const handleBack = () => {
     navigate(
-      `/survey3?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}&who=${encodeURIComponent(who)}&how=${encodeURIComponent(how)}`
+      `/survey6?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}&who=${encodeURIComponent(who)}&how=${encodeURIComponent(how)}`
     );
   };
 
@@ -52,7 +52,7 @@ export default function SurveyPage() {
       </header>
 
       <main className="survey-main">
-        <p className="survey-question">목적지가 정해져았나요?</p>
+        <p className="survey-question">목적지가 정해져있나요?</p>
         <img src={howImage} alt="누구와 함께" className="survey-image" />
         <div className="survey-options">
           {[

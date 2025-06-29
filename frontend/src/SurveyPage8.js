@@ -41,7 +41,7 @@ export default function SurveyPage() {
 
   const handleBack = () => {
     navigate(
-      `/survey3?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}&who=${encodeURIComponent(who)}&how=${encodeURIComponent(how)}&where=${encodeURIComponent(where)}`
+      `/survey7?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}&who=${encodeURIComponent(who)}&how=${encodeURIComponent(how)}&where=${encodeURIComponent(where)}`
     );
   };
 
@@ -77,20 +77,20 @@ export default function SurveyPage() {
 
         {/* 적기 선택 시 텍스트 입력창 노출 */}
         {selectedWhat === '적기' && (
-          <div style={{ marginTop: '1.5rem', textAlign: 'center' }}>
+          <div style={{ marginTop: '-3.5rem', textAlign: 'center' }}>
             <input
               type="text"
               value={customInput}
               onChange={(e) => setCustomInput(e.target.value)}
               placeholder="원하는 스타일을 입력해 주세요"
               className="custom-input"
-              style={{ padding: '0.6rem', fontSize: '1rem', width: '70%', borderRadius: '8px', border: '1px solid #ccc' }}
+              style={{ padding: '0.6rem', fontSize: '1rem', width: '100%', height: '42px', borderRadius: '8px', border: '1px solid #ccc' }}
             />
             <br />
             <button
               onClick={handleInputConfirm}
               className="option-button"
-              style={{ marginTop: '1rem' }}
+              style={{ marginTop: '0.5rem' }}
             >
               입력 완료
             </button>

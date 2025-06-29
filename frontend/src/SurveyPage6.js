@@ -32,7 +32,7 @@ export default function SurveyPage() {
   // ✅ 뒤로가기 (설문 3단계로 이동)
   const handleBack = () => {
     navigate(
-      `/survey3?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}&who=${encodeURIComponent(who)}`
+      `/survey4?age=${encodeURIComponent(age)}&sex=${encodeURIComponent(sex)}&purpose=${encodeURIComponent(purpose)}&who=${encodeURIComponent(who)}`
     );
   };
 
