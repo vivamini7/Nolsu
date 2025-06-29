@@ -64,7 +64,7 @@ export default function SurveyPage() {
         <img src={Image} alt="누구와 함께" className="survey-image" />
 
         <div className="survey-options">
-          {['적기', '안적기'].map((option) => (
+          {['적기', '넘어가기'].map((option) => (
             <button
               key={option}
               className={`option-button ${selectedWhat === option ? 'selected' : ''}`}
