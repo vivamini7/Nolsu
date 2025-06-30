@@ -39,7 +39,76 @@ export default function RecommendationPage() {
   const [selectedPlaces, setSelectedPlaces] = useState(() => location.state?.selectedPlaces || [undefined, undefined, undefined, undefined]);
   const [mapCenter, setMapCenter] = useState({ lat: 36.6357, lng: 127.4917 });
   const navigate = useNavigate();
-  const result = location.state?.result || {};
+  const result = {
+    stay: [
+      {
+        name: "포레스트힐링캠프",
+        reason: "편안한 휴식을 위한 최적의 숙소입니다.",
+        address: "충북 단양군 가곡면 새밭로 240 (포레스트힐링캠프)"
+      },
+      {
+        name: "구름위의산책",
+        reason: "탁 트인 전망과 함께하는 특별한 워케이션 숙소",
+        address: "충북 단양군 가곡면 두산길 179-18"
+      },
+      {
+        name: "더즌호텔",
+        reason: "단양 시내 중심에 위치한 쾌적한 비즈니스 호텔",
+        address: "충북 단양군 단양읍 별곡10길 10"
+      }
+    ],
+    cafe: [
+      {
+        name: "할리스충북오송점",
+        reason: "접근성과 좌석이 좋고 워케이션에 적합한 카페",
+        address: "충북 청주시 흥덕구 오송읍 만수1길 3"
+      },
+      {
+        name: "레인디어커피",
+        reason: "감성적인 분위기와 커피로 집중력을 높일 수 있는 공간",
+        address: "충북 청주시 흥덕구 가포산로 191"
+      },
+      {
+        name: "카페다우리",
+        reason: "브런치와 함께 여유로운 분위기를 즐길 수 있는 카페",
+        address: "충북 단양군 대강면 선암계곡로 165"
+      }
+    ],
+    food: [
+      {
+        name: "스시서울 청주점",
+        reason: "신선한 스시와 정갈한 분위기",
+        address: "충북 청주시 서원구 예체로1번길 20"
+      },
+      {
+        name: "경복궁청주점",
+        reason: "전통 한식의 품격을 느낄 수 있는 공간",
+        address: "충북 청주시 흥덕구 2순환로 1250 3"
+      },
+      {
+        name: "청풍떡갈비",
+        reason: "청풍호 근처에서 맛보는 전통 떡갈비",
+        address: "충북 제천시 금성면 청풍호로 1643"
+      }
+    ],
+    program: [
+      {
+        name: "초평호 미르309 출렁다리",
+        reason: "탁 트인 경치와 스릴을 함께 느낄 수 있는 명소",
+        address: "충북 진천군 초평면 화산리 산 7-1"
+      },
+      {
+        name: "국립제천 치유의 숲",
+        reason: "자연 속에서 힐링과 명상을 동시에",
+        address: "충북 제천시 청풍면 학현소야로 590"
+      },
+      {
+        name: "청주시 반려견 놀이터(문암생태공원 내)",
+        reason: "반려동물과 함께 즐길 수 있는 워케이션 휴식 공간",
+        address: "충북 청주시 흥덕구 무심서로 1097"
+      }
+    ]
+  };
 
   const categoryMap = {
     '숙소': 'stay',

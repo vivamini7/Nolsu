@@ -9,7 +9,6 @@ export default function SurveyPage5() {
 
   const clean = (str) => decodeURIComponent(str || '').replace(/[)}]+$/, '').trim();
 
-  // 🔹 clean 함수 적용
   const age = clean(queryParams.get('age'));
   const sex = clean(queryParams.get('sex'));
   const purpose = clean(queryParams.get('purpose'));
@@ -21,33 +20,12 @@ export default function SurveyPage5() {
   const [clickedButton, setClickedButton] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const handleConfirm = async () => {
+  const handleConfirm = () => {
     setClickedButton('confirm');
     setLoading(true);
 
-    const userProfile = {
-      age_group: age,
-      gender: sex,
-      purpose: purpose,
-      companions: who,
-      transport: how,
-      location: where,
-      what: what
-    };
-
-    try {
-      const response = await fetch('http://localhost:5000/api/recommend', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(userProfile),
-      });
-
-      if (!response.ok) throw new Error('추천 요청 실패');
-
-      const result = await response.json();
-
+    // 5초 후 자동 이동
+    setTimeout(() => {
       navigate('/recommendation', {
         state: {
           age,
@@ -57,15 +35,10 @@ export default function SurveyPage5() {
           how,
           where,
           what,
-          result, // 🔹 GPT 추천 결과 JSON
+          result: null, // 결과는 없지만 구조 맞춤
         },
       });
-    } catch (err) {
-      alert('추천 생성 중 오류가 발생했습니다.');
-      console.error(err);
-    } finally {
-      setLoading(false);
-    }
+    }, 5000);
   };
 
   const handleReset = () => {
@@ -112,7 +85,7 @@ export default function SurveyPage5() {
           </button>
         </div>
 
-        {loading && <p style={{ marginTop: '1.5rem' }}>추천을 생성하고 있어요... 잠시만 기다려 주세요 🙌</p>}
+        {loading && <p style={{ marginTop: '1.5rem' }}>보내는 중입니다... 잠시만 기다려 주세요 🙌</p>}
       </main>
     </div>
   );

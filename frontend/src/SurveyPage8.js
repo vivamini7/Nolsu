@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './CSS/SurveyPage.css';
-import Image from './images/img_5.png';
+import Image from './images/img_7.png';
 
 export default function SurveyPage() {
   const navigate = useNavigate();
