@@ -42,9 +42,10 @@ export default function RecommendationPage() {
   const result = {
     stay: [
       {
-        name: "포레스트힐링캠프",
+        name: "더휴식아늑호텔청주우암2호점",
         reason: "편안한 휴식을 위한 최적의 숙소입니다.",
-        address: "충북 단양군 가곡면 새밭로 240 (포레스트힐링캠프)"
+        address: "충북 청주시 청원구 사북로143번길 32 (더휴식아늑호텔청주우암2호점)",
+        url: "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=78&tourNo=2902&pageUnit=12&pageIndex=17&searchCnd=all&searchMainSe=STAY"
       },
       {
         name: "구름위의산책",
@@ -71,7 +72,9 @@ export default function RecommendationPage() {
       {
         name: "카페다우리",
         reason: "브런치와 함께 여유로운 분위기를 즐길 수 있는 카페",
-        address: "충북 단양군 대강면 선암계곡로 165"
+        address: "충북 단양군 대강면 선암계곡로 165",
+        time: "11:00~19:00 매주 수요일 휴무",
+        "url": "https://tour.chungbuk.go.kr/www/selectTourCntnts.do?key=77&tourNo=2790&pageUnit=12&pageIndex=6&searchCnd=all&searchMainSe=FOOD&searchTourSe=06"
       }
     ],
     food: [
