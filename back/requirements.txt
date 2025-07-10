@@ -1,0 +1,7 @@
+dotenv
+fastapi
+openai
+faiss-cpu
+scikit-learn
+requests
+beautifulsoup4
