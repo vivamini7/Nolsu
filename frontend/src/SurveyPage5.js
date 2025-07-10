@@ -38,7 +38,7 @@ export default function SurveyPage5() {
           result: null, // 결과는 없지만 구조 맞춤
         },
       });
-    }, 5000);
+    }, 3000);
   };
 
   const handleReset = () => {
