@@ -8,6 +8,7 @@
 ---
 
 ## 📁 폴더 구조
+```
 Nolsu/
 ├── backend/ # Flask 기반 백엔드 서버\\
 │ ├── app.py
@@ -19,8 +20,7 @@ Nolsu/
 │ └── ...
 ├── .gitignore
 └── README.md
-
-
+```
 
 ## 🛠️ 실행 방법
 
