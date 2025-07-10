@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'RiaSans-ExtraBold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/RiaSans-ExtraBold.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  overflow: hidden;
+  position: relative; /* for .logo absolute positioning */
+  flex-wrap: wrap; /* 모바일 대응 */
+}
+
+.left-section {
+  width: 50%;
+  padding: 1rem clamp(2rem, 9vw, 12rem); /* 화면 크기에 따라 자동 조절 */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Pretendard', sans-serif;
+  box-sizing: border-box;
+}
+
+.logo {
+  position: absolute;
+  top: 2rem;
+  left: clamp(1rem, 8vw, 11rem); /* 화면 크기에 따라 왼쪽 간격 조절 */
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #535353;
+  font-family: 'RiaSans-ExtraBold', sans-serif;
+  z-index: 10;
+}
+
+.title-group {
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  color: #1f2937;
+}
+
+.subtitle {
+  font-size: clamp(1.5rem, 2.5vw, 2.5rem); /* 작게는 1.5rem ~ 크게는 2.5rem */
+  font-weight: bold;
+}
+
+.main-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 300;
+  color: #1f2937;
+  margin-top: -1.5rem;
+  font-family: 'RiaSans-ExtraBold', sans-serif;
+}
+
+.description {
+  font-size: clamp(0.9rem, 1.2vw, 1rem);
+  color: #374151;
+  line-height: 1.75;
+  margin-bottom: 2.5rem;
+}
+
+.option-button.selected {
+  background: linear-gradient(to right, #36CAFF, #6DB6FD);
+  color: black;
+}
+
+.cta-button {
+  background: linear-gradient(to right, #36CAFF, #6DB6FD);
+  color: black;
+  padding: 0.9rem 1.8rem;
+  font-size: 1.1rem;
+  border-radius: 9999px;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  width: fit-content;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* ✅ transform 추가 */
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #76FF02;
+  transform: translateY(-4px); /* ✅ 마우스를 올리면 살짝 위로 이동 */
+}
+
+
+.right-section {
+  width: 50%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.scroll-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.scroll-inner {
+  display: flex;
+  flex-direction: column;
+  animation: scrollImages 30s linear infinite;
+}
+
+.scroll-image {
+  width: 100%;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+@keyframes scrollImages {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+/* ✅ 반응형 처리 */
+@media (max-width: 1024px) {
+  .left-section {
+    width: 100%;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .right-section {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+  }
+
+  .logo {
+    left: 1.5rem;
+    top: 1.2rem;
+    font-size: 1.3rem;
+  }
+
+  .subtitle {
+    font-size: 2rem;
+  }
+
+  .main-title {
+    font-size: 2.5rem;
+    margin-top: -1rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.7rem 1.5rem;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .left-section {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .main-title {
+    margin-top: -1rem;
+  }
+
+  .logo {
+    left: 2rem;
+    top: 1.5rem;
+    font-size: 1.3rem;
+  }
+}

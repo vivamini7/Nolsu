@@ -1,0 +1,33 @@
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
+import MainPage from './MainPage';
+import SurveyPage from './SurveyPage';
+import SurveyPage2 from './SurveyPage2'; 
+import SurveyPage3 from './SurveyPage3'; 
+import SurveyPage4 from './SurveyPage4'; 
+import SurveyPage5 from './SurveyPage5'; 
+import SurveyPage6 from './SurveyPage6'; 
+import SurveyPage7 from './SurveyPage7'; 
+import SurveyPage8 from './SurveyPage8'; 
+import RecommendationPage from './Recommendation';
+import Result from './Result';
+
+export default function App() {
+  return (
+    <HashRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/survey" element={<SurveyPage />} />
+        <Route path="/survey2" element={<SurveyPage2 />} /> {/* 추가 */}
+        <Route path="/survey3" element={<SurveyPage3 />} />
+        <Route path="/survey4" element={<SurveyPage4 />} />
+        <Route path="/survey6" element={<SurveyPage6 />} />
+        <Route path="/survey7" element={<SurveyPage7 />} />
+        <Route path="/survey8" element={<SurveyPage8 />} />
+        <Route path="/survey5" element={<SurveyPage5 />} />
+        <Route path="/recommendation" element={<RecommendationPage />} />
+        <Route path="/result" element={<Result />} />
+        <Route path="*" element={<Navigate to="/" />} />
+      </Routes>
+    </HashRouter>
+  );
+}
